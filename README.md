@@ -1,4 +1,4 @@
-# Minimoog
+# Micromoog
 A minimoog simulation with PYO and PySimpleGui for a University project
 
 I'm using
